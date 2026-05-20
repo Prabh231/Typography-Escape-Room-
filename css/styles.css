@@ -194,8 +194,8 @@ code {
 
 .article p {
   font-size: 1.1rem;      /* TODO: consider clamp() or rem */
-  line-height: 28px;    /* TODO: use unitless value, ex: 1.6 */
-  max-width: 1000px;    /* TODO: use 60ch or 65ch */
+  line-height: 1.7;    /* TODO: use unitless value, ex: 1.6 */
+  max-width: 60ch;    /* TODO: use 60ch or 65ch */
 }
 
 /* TODO: Add a media query.
