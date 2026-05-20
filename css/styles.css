@@ -189,7 +189,7 @@ code {
 }
 
 .article h2 {
-  font-size: 56px; /* TODO: use clamp(), ex: clamp(1.75rem, 4vw, 3rem) */
+  font-size: clamp(1.5rem, 4vw, 2.8rem); /* TODO: use clamp(), ex: clamp(1.75rem, 4vw, 3rem) */
 }
 
 .article p {
