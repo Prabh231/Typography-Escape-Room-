@@ -216,6 +216,7 @@ nav {
 
   nav {
     flex-direction: column;
+    gap: 0.5rem;
   }
 }
 /* TODO: Add a media query.
