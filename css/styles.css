@@ -185,7 +185,7 @@ code {
 }
 
 .page-three h1 {
-  font-size: 64px; /* TODO: use clamp(), ex: clamp(2rem, 5vw, 4rem) */
+  font-size: clamp(2.5rem, 6vw, 5rem); /* TODO: use clamp(), ex: clamp(2rem, 5vw, 4rem) */
 }
 
 .article h2 {
