@@ -186,10 +186,13 @@ code {
 
 .page-three h1 {
   font-size: clamp(2.5rem, 6vw, 5rem); /* TODO: use clamp(), ex: clamp(2rem, 5vw, 4rem) */
+  line-height: 1.1;
 }
 
 .article h2 {
   font-size: clamp(1.5rem, 4vw, 2.8rem); /* TODO: use clamp(), ex: clamp(1.75rem, 4vw, 3rem) */
+  line-height: 1.2;
+  margin-top: 2rem;
 }
 
 .article p {
@@ -197,7 +200,19 @@ code {
   line-height: 1.7;    /* TODO: use unitless value, ex: 1.6 */
   max-width: 60ch;    /* TODO: use 60ch or 65ch */
 }
+@media (max-width: 700px) {
+  .page-three {
+    padding: 0 1rem;
+  }
 
+  .article p {
+    font-size: 1rem;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+}
 /* TODO: Add a media query.
 Example:
 @media (max-width: 768px) {
