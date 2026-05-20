@@ -199,6 +199,11 @@ code {
   font-size: 1.1rem;      /* TODO: consider clamp() or rem */
   line-height: 1.7;    /* TODO: use unitless value, ex: 1.6 */
   max-width: 60ch;    /* TODO: use 60ch or 65ch */
+  margin-bottom: 1rem;
+}
+nav {
+  display: flex;
+  gap: 1rem;
 }
 @media (max-width: 700px) {
   .page-three {
